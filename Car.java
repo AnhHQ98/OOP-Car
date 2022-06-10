@@ -32,7 +32,7 @@ class Wheel{
     }
 }
 public class Car{
-    public class void main(String[] args){
+    public static void main(String[] args){
         Car superCar = new Car("Volvo", new Engine("Diesel"), new Wheel("Circle"));
         superCar.display();
     }
